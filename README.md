@@ -10,6 +10,7 @@ This is a simple e-commerce platform built with Vite, React.js, and Tailwind CSS
 - **Product Listing**: Fetches and displays product data from an API.
 - **Pagination**: Supports pagination for product listings.
 - **Add to Cart**: Users can add items to their cart.
+- **Remove from Cart**: Users can remove items to their cart.
 - **Cart Page**: Displays all items added to the cart.
 - **Routing**: Set up for seamless navigation between different pages.
 - **Error Handling**: Manages errors gracefully with user-friendly messages.
