@@ -13,6 +13,7 @@ const ProductCard = ({ product }) => {
         <p className="text-gray-600 mb-2">{product.category}</p>
         <p className="text-gray-800 mb-4">{product.description}</p>
         <div className="flex items-center justify-between">
+          <p className="text-gray-900">₹{product.price}</p>
           <p className="text-gray-700">{Math.floor(product.rating)}⭐</p>
           <button
             className="bg-green-500 hover:bg-green-600 text-white px-3 py-1 rounded"
